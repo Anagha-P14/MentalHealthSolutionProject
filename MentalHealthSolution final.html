@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MentalHealthSolution</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<style>
+    img.one {
+  height: 35%;
+  width:40% ;
+}
+img.ones {
+  height: 35%;
+  width:50% ;
+}
+
+</style>
+<body>
+
+<!-- Side Navigation -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+background-color:powderblue;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://mentalhealth101.herokuapp.com/">About</a>
+  <a href="https://mentalhealth101.herokuapp.com/#evaluate">Evaluate</a>
+  <a href="https://mentalhealth101.herokuapp.com/#chatbot">Appointment</a>
+  <a href="https://mentalhealth101.herokuapp.com/#footer">Contact</a>
+</div>
+
+<div id="main" style="background-color:#4994F8">
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+  <h1><center><b>Mental Health</b></center></h1>
+  <h2><center>Tips to improve mental health</center></h2>
+  
+</div>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  document.body.style.backgroundColor = "white";
+}
+</script>
+   
+</body>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Connect</h3><br>
+  <img class="one" src="C:\Users\Dell\Downloads\MentalHealthSolution\Images\connect.jpg" alt="abc">
+  <p>Stay socially active</p>
+  <p>Keep in contact with friends and family</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Sleep</h3><br>
+  <img class="one" src="C:\Users\Dell\Downloads\MentalHealthSolution\Images\sleep.jpg" alt="abc">
+  <p>Aim for 7 to 9 hours of sleep per night</p>
+  <p>Have sound sleep</p>
+  </div>
+</div>
+
+<div class="w3-third">
+  <div class="w3-card w3-container" style="min-height:460px">
+  <h3>Exercise</h3><br>
+  <img class="one" src="C:\Users\Dell\Downloads\MentalHealthSolution\Images\excercise.jpg" alt="abc" >
+  <p>Engage in regular exercise</p>
+  <p>Practice Yoga</p>
+  </div>
+</div>
+</div>
+
+<hr>
+<div class="w3-row-padding w3-center w3-margin-top">
+    <div class="w3-third">
+      <div class="w3-card w3-container" style="min-height:460px">
+      <h3>Habit</h3><br>
+      <img class="one" src="C:\Users\Dell\Downloads\MentalHealthSolution\Images\habit.jpg" alt="abc">
+      <p>Maintain healthy habits</p>
+      <p>Don't smoke or drink</p>
+      </div>
+    </div>
+    
+    <div class="w3-third">
+      <div class="w3-card w3-container" style="min-height:460px">
+      <h3>Diet</h3><br>
+      <img class="ones" src="C:\Users\Dell\Downloads\MentalHealthSolution\Images\diet.jpg" alt="abc" height="60%">
+      <p>Eat well balanced diet.</p>
+      <p>make sure you don't skip meals.</p>
+      </div>
+    </div>
+    
+    <div class="w3-third">
+      <div class="w3-card w3-container" style="min-height:460px">
+      <h3>Mental Health</h3><br>
+      <img class="one" src="C:\Users\Dell\Downloads\MentalHealthSolution\Images\mentalhealth.jpg" alt="abc">
+      <p>Look after your mental health</p>
+      <p>Spend time each week to practice some self care</p>
+      </div>
+    </div>
+    </div>
+
+    <hr>
+
+<div class="w3-row-padding w3-center w3-margin-top">
+    <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height:460px">
+        <h3>Learning</h3><br>
+      <img class="one" src="C:\Users\Dell\Downloads\MentalHealthSolution\Images\learning.jpeg" alt="abc">
+        <p>Keep learning</p>
+        <p>Engage you brain with new and exiting content.</p>
+        </div>
+      </div>
+      
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height:460px">
+        <h3>Challenge</h3><br>
+        <img class="one" src="C:\Users\Dell\Downloads\MentalHealthSolution\Images\challenge.jpeg" alt="abc">
+        <p>Engage in mentally chalenging activities</p>
+        </div>
+      </div>
+      
+      <div class="w3-third">
+        <div class="w3-card w3-container" style="min-height:460px">
+        <h3>Meditation</h3><br>
+       <img class="one" src="C:\Users\Dell\Downloads\MentalHealthSolution\Images\meditation.jpeg" alt="abc">
+        <p>Do medidation daily</p>
+        <p>Take time to brath and slow down</p>
+        </div>
+      </div>
+</div>
+<script>
+function w3_open() {
+  var x = document.getElementById("mySidebar");
+  x.style.width = "100%";
+  x.style.fontSize = "40px";
+  x.style.paddingTop = "10%";
+  x.style.display = "block";
+}
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+</body>
+</html>
